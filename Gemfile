@@ -2,7 +2,9 @@ source 'https://rubygems.org'
 
 gem 'pry-rails'
 gem 'kaminari'
-gem 'responders', '~> 2.0' 
+gem 'responders', '~> 2.0'
+
+gem 'rack-cors', :require => 'rack/cors'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
 # Use sqlite3 as the database for Active Record
